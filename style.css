@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    background-image: url(./img/Bg_web.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-qbox {
+    width: 29rem;
+}
+
+.frase-p1, .frase-p2, .frase-p3 {
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+.card-form {
+    height: 90% !important;
+    width: 48%;
+    overflow: auto;
+}
+
+.banner-form {
+    display: none;
+}
+
+.card-qbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 48%;
+}
+
+.frase-p1 {
+    font-size: 4.8rem;
+}
+
+.frase-p2 {
+    font-size: 3.4rem;
+}
+
+.frase-p3 {
+    font-size: 4.5625rem;
+}
+
+@media screen and (max-width: 50rem) {
+    body {
+        flex-direction: column;
+        background-image: none;
+        justify-content: flex-start;
+    }
+    .card-form {
+        height: fit-content !important;
+        width: 100%;
+    }
+    .banner-form {
+        display: block;
+        width: 100%;
+    }
+    .card-qbox {
+        display: none;
+        height: 100%;
+        width: 100%;
+        padding: 1rem;
+    }
+    
+}
