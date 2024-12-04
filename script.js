@@ -47,6 +47,9 @@ const container = document.getElementById("checkbox-container");
                 <div class="text-center p-4">
                     <h3 class="text-success">Formulário enviado com sucesso!</h3>
                     <p>Em breve entraremos em contato.</p>
+                    <hr>
+                    <span>Clique no link abaixo e veja a nossa documentação da API de integração:</span><br>
+                    <a href="https://qedb.ddns.net/documentation/static/index.html#/Ocorren/post_api_ocorren_">Clique aqui</a>
                 </div>
             `;
         });
