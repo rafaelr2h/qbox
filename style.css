@@ -1,7 +1,11 @@
 body {
     display: flex;
-    background-image: url(./img/Bg_web.svg);
+    background-color: #4EC9E3 !important;
+    background-image: url(./img/img_qbox.svg);
     background-repeat: no-repeat;
+    background-size: 65%;
+    background-position-x: 120%;
+    background-position-y: top;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -33,6 +37,11 @@ body {
     align-items: center;
     height: 90%;
     width: 48%;
+}
+
+.logo-qentrega {
+    height: 4rem;
+    margin: 2rem;
 }
 
 .frase-p1 {
